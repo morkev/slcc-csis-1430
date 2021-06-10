@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body  {
+  background-color: #f08a5d;
+}
+
+div.ball  {
+  margin: 270px;
+  border-radius: 50%;
+  background-color: #eeecda;
+  padding: 17px;
+  width: 200px;
+  height: 200px;
+  font-family: verdana;
+  color: #b83b5e;
+  font-size: 130px;
+  transition: 1500ms;
+}
+
+div.ball:hover  {
+  transform: rotate(3600deg);
+}

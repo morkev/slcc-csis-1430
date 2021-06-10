@@ -1,0 +1,42 @@
+body  {
+    align-items: center;
+    background-color: coral;
+    font-family: verdana;
+}
+
+span  {
+    background-color: blue;
+    padding: 2px;
+}
+
+span.pupu  {
+    background-color: green;
+    padding: 2px;
+}
+
+h1#lol  {
+  color: white;
+}
+
+h1#lol2  {
+  color: blue;
+  letter-spacing: 15px;
+}
+
+a {
+  color: white;
+  text-decoration: none; /*Use this delete the underline in a link with <a href>.*/
+}
+
+div {
+    margin: 20px;
+    border: 10px dashed plum;
+    padding: 20px;
+}
+
+div.chicken {
+  border-color: green;
+  background-color: red;
+  font-family: arial;
+  color: yellow;
+}

@@ -1,0 +1,183 @@
+body
+{
+  background-color: #FFF8DC;
+}
+
+span
+{
+  background-color: MediumAquaMarine;
+}
+
+h1
+{
+  font-family: verdana;
+  font-size: 65px;
+  color: red;
+  text-align: center;
+  margin: 5px;
+}
+
+h2
+{
+  font-family: verdana;
+  font-size: 35px;
+  color: #FF7F50;
+  text-align: center;
+  margin: 20px;
+}
+
+h1.duffone
+{
+  font-family: Verdana;
+  font-size: 65px;
+  color: red;
+  text-align: center;
+  margin: 5px;
+}
+
+h2.dufftwo
+{
+  font-family: Comic Sans MS;
+  font-size: 30px;
+  color: blue;
+}
+
+h2.duffthree
+{
+  font-family: Comic Sans MS;
+  font-size: 30px;
+  color: OrangeRed;
+}
+
+h2.dufffour
+{
+  font-family: Comic Sans MS;
+  font-size: 30px;
+  color: DarkViolet;
+}
+
+h1.dufffive
+{
+  font-family: Verdana;
+  font-size: 65px;
+  color: red;
+}
+
+h2.duffsix
+{
+  font-family: Comic Sans MS;
+  font-size: 30px;
+  color: MediumSeaGreen;
+}
+
+h2.duffseven
+{
+  font-family: Comic Sans MS;
+  font-size: 30px;
+  color: MidnightBlue;
+}
+
+h2.duffeight
+{
+  font-family: Comic Sans MS;
+  font-size: 30px;
+  color: DeepPink;
+}
+
+p
+{
+  width: 800px;
+  padding: 20px;
+  margin: 5px auto;
+  box-sizing: border-box;
+
+  font-family: Comic Sans MS;
+  font-size: 15px;
+  text-align: justify;
+}
+
+p.babyone
+{
+  background-color: black;
+  color: yellow;
+}
+
+p.babytwo
+{
+  background-color: LightCoral;
+  color: white;
+}
+
+p.babythree
+{
+  background-color: PaleTurquoise;
+  color: Crimson;
+}
+
+p.babyfour
+{
+  background-color: DarkRed;
+  color: white;
+}
+
+p.babyfive
+{
+  background-color: Gold;
+  color: red;
+}
+
+p.babysix
+{
+  background-color: DarkSlateGrey;
+  color: white;
+}
+
+div.lol
+{
+  margin: 20px;
+  border: 10px dashed plum
+  padding: 20px;
+}
+
+div.lolsecond
+{
+  margin: 20px;
+  border: 10px dashed plum
+}
+
+div.lolthird
+{
+  margin: 20px;
+  border: 10px dashed plum
+}
+
+div.lolfourth
+{
+  margin: 20px;
+  border: 10px dashed plum
+}
+
+div.lolfifth
+{
+  margin: 20px;
+  border: 10px dashed plum
+  padding: 20px;
+}
+
+div.lolsixth
+{
+  margin: 20px;
+  border: 10px dashed plum
+}
+
+div.lolseventh
+{
+  margin: 20px;
+  border: 10px dashed plum
+}
+
+div.lolfinal
+{
+  margin: 20px;
+  border: 10px dashed plum
+}

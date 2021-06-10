@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Who Wants Pizza?</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+  </head>
+
+  <body>
+
+    <ul class="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li><a class="active" href="order.html">Order</a></li>
+      <li><a href="about.html">About Us</a></li>
+    </ul>
+
+    <h1>Order</h1>
+
+    <form action="https://www.stonecoldprofessor.com/pizza-order.php" method="post">
+        <input type="checkbox" name="toppings[]" value="olives">Olives
+        <input type="checkbox" name="toppings[]" value="sardines">Sardines
+        <input type="checkbox" name="toppings[]" value="bacon">Bacon
+        <input type="checkbox" name="toppings[]" value="extra cheese">Extra Cheese
+
+        <input type="radio" name="crust" value="thin">Thin
+        <input type="radio" name="crust" value="thick">Thick
+        <input type="radio" name="crust" value="pan">Pan
+        <input type="radio" name="crust" value="chicago">Chicago
+
+        <select name="size">
+          <option value="Large">Large</option>
+          <option value="Medium">Medium</option>
+          <option value="Small">Small</option>
+        </select>
+
+        <input type="submit">
+    </form>
+
+  </body>
+
+</html>

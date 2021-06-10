@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body  {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  background-color: #f6f5f5;
+}
+
+ul.menu {
+  background-color: salmon;
+  text-align: center;
+}
+
+ul.menu li {
+  display: inline-block;
+}
+
+ul.menu li a:hover, ul.menu li a.active   {
+  color: #b83b5e;
+  background-color: seashell;
+}
+
+
+ul.menu li a  {
+  border-radius: 5px 5px 5px 5px;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  display: inline-block;
+  color: white;
+  padding: 20px;
+}
+
+ul li a {
+  padding: 20px;
+  margin: 10px;
+  font-size: 15px;
+  background-color: salmon;
+  text-decoration: none;
+  transition: background-color 1800ms;
+}
+
+ul li a:hover {
+  background-color: #b83b5e;
+  transform: scale(1.1);
+}
+
+.pizza-link {
+  display: block;
+  width: 110px;
+  height: 145px;
+  border: 1px solid gray;
+  float: left;
+  position: relative;
+  overflow: hidden;
+  padding: 1.0em;
+  margin: 1.0em;
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+  p {
+    color: black;
+    margin: 0;
+    position: relative;
+  }
+
+.poo {
+  display: block;
+  height: 1280px;
+  border: 1px solid gray;
+  overflow: hidden;
+  padding: 10em;
+  margin: 5em;
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  background: #333;
+  padding: .15em 0;
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 2.5em;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav.nav-sticky {
+  position: -webkit-sticky;
+  position: sticky; top: 0px;
+}
+
+header {
+  background: salmon;
+  color: #fff;
+  display: flex;
+  min-height: 250px;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 3.5em;
+}
+
+a.poo  {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+}
+
+.imgBorder {
+  padding: 15px 15px 0;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+  -moz-box-shadow: 0 1px 2px rgba(34,25,25,0.4);
+  -webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+}

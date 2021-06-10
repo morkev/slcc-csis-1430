@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html  {
+  background-color: white;
+}
+
+div {
+  border: 1px solid gray;
+  width: 100%;
+  height: 60px;
+}
+
+div:hover { /*this adds a color when hovering a -div-*/
+  background-color: gray;
+  cursor: pointer;  /*-cursor- can apply any kind of mouse cursor; can be a load icon (progress), or pointer, etc.*/
+}
+
+div:first-child { /*this -pseudo class- affects the first atribute selected*/
+  background-color: blue;
+}
+
+div:last-child  { /*this -pseudo class- affects the last atribute selected*/
+  background-color: red;
+}
+
+div:nth-child(6)  { /*this -pseudo class- affects the n atribute selected from top to bottom*/
+  background-color: green;
+}
+
+div:nth-last-child(3)  {  /*this -pseudo class- affects the n atribute selected from bottom to top*/
+  background-color: yellow;
+}

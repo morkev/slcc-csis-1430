@@ -1,0 +1,27 @@
+* {padding: 0; margin: 0;}
+
+body  {
+  background-color: pink;
+}
+
+div {
+  /*New properties*/
+  font-weight: bold;
+  box-sizing: border-box; /*Puts everything with the correct size (pixels)*/
+  float: left; /*Delete this propertie to center the boxes*/
+
+  border: 8px solid white;
+  margin: 10px auto; /*The -auto- propertie is able to center the boxes*/
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  color: black;
+  font-size: 85px;
+  text-align: center;
+  padding-top: 33px;
+}
+
+div.box2  {
+  border: clear; /*fixes the floating messy stuff; turns the float off – here is not doing anything.*/
+}

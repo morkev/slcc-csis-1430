@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+  margin: 0 auto;
+
+}
+
+html,
+body  {
+  max-height: 100vh;
+  max-width: 100vw;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 30px;
+}
+
+.container  {
+  height: 100vh;
+  width: 100vw;
+}
+
+.belt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+}
+
+.beltshape {
+  height: 80vh;
+  width: 10vw;
+  background: #ffc93c;
+  border-radius: 15px;
+  border: 1px solid #7e8a97;
+}
+
+.round-container  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  z-index: 1;
+}
+
+.watch  {
+  height: 260px;
+  width: 260px;
+  border-radius: 50%;
+  background: #a2d5f2;
+  border: 5px solid #0f3057;
+  display: flex;
+  flex-direction: column;
+}
+
+.top  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 260px;
+}
+
+.middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 160px;
+  width: 260px;
+}
+
+.dot  {
+  height: 1px;
+  width: 1px;
+  background: red;
+  border-radius: 50%;
+  border: 8px solid #40a8c4;
+}
+
+.hour {
+  border: 1px solid #31112c;
+  width: 50px;
+  z-index: 2;
+}
+
+.minute {
+  border: 1px solid #31112c;
+  width: 75px;
+  z-index: 1;
+  transform: rotate(-90deg);
+  transform-origin: left 0;
+
+}
+
+ .bottom  {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 50px;
+   width: 260px;
+ }
+
+.time-12,
+.time-9,
+.time-3,
+.time-6  {
+  background: transparent;
+  color: #ff4b5c;
+}

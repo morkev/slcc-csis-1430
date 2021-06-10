@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html  {
+  background-color: white;
+}
+
+div {
+  border: 1px solid gray;
+  width: 100%;
+  height: 60px;
+}
+
+div:nth-child(odd) {  /*you can attack odd, or even numbers with the parenthesis*/
+  background-color: black;
+}
+
+div:nth-child(even) {
+  background-color: white;
+}

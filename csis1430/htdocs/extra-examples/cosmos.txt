@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Kevin Mora's Favorite Science Serie</title>
+    <meta charset="UTF-8">
+  </head>
+
+  <body>
+    <h1>My Favorite Serie of All Times!</h1>
+    <h2>Cosmos: A Personal Voyage, by <i>Carl Sagan.</i></h2>
+    <p>It would be nice if I could summarize each one of the <i>13 chapters</i> of <b>Cosmos,</b>
+      and give you the lowdown on our painstakingly slow but rewarding crawl through the fabric
+      of space and time, the civilizational hurdle race towards a finish line which we can neither
+      begin to envision nor fully comprehend yet. I could write a review in the conventional format,
+      leaving you with a gentle nudge to read this book as soon as you can.</p>
+    <p>Or, instead, I could simply write about how, despite being more than 30 years outdated,
+      Carl Sagan's voice of reason rings truer than ever, cutting through the heart of all the
+      din and chaos of our troubled times. I could just tell you how Sagan's deep and abiding
+      love for nature and humanity reverberates in every page of this work and how our scientific
+      endeavours across timelines and geographical boundaries, across the unending void which
+      surrounds us on all sides, symbolize our collective pursuit of knowledge.</p>
+    <p>Credits to <a href="https://www.youtube.com/channel/UCCdDtNqEd8TxoQHZRph9gxw"><strong><i><b>TopDocumentaries,</b></i></strong></a> whose videos made this project possible.</p>
+
+
+        <table border="1" cellspacing="0" cellpadding="4">
+            <tr>  <th>Chapters</th> <th>Main Topics</th> <th>Depiction</th> <th>Lenght</th>  </tr>
+            <tr>  <td><a href="https://www.youtube.com/watch?v=FT_nzxtgXEw&list=PLtvRfQfTh1K8M9Jrk7LPRhvKLgvJqdNfA&index=1"><strong>1: The Shores of the Cosmic Ocean</strong></a></td> <td>300 years in Alexandria & the <i>Big Bang</i></td> <td><img src="https://miro.medium.com/max/1000/1*kqMRAvcNs-adDalS-tlPqQ.jpeg" alt="Alexandria" style="width:150px;height:150px;"></td> <td>57:33</td>  </tr>
+            <tr>  <td><a href="https://www.youtube.com/watch?v=Kan20tk7VLc&list=PLtvRfQfTh1K8M9Jrk7LPRhvKLgvJqdNfA&index=2"><strong>2: One Voice in the Cosmic Fugue</strong></a></td> <td>Natural Selection & Life</td> <td><img src="https://mostre.museogalileo.it/codiceleicester/images/pannelli/P7_3b_Windsor_12401.jpg" alt="Darwin" style="width:150px;height:150px;"></td> <td>01:00:05</td>  </tr>
+            <tr>  <td><a href="https://www.youtube.com/watch?v=R6TdNbiAUnE&list=PLtvRfQfTh1K8M9Jrk7LPRhvKLgvJqdNfA&index=3"><strong>3: The Harmony of the Worlds</strong></a></td> <td>Greeks & the future of Science</td> <td><img src="https://inteng-storage.s3.amazonaws.com/img/iea/bjOLAv0oGe/sizes/hearst-greek-theatre-project_resize_md.jpg" alt="Greek" style="width:150px;height:150px;"></td> <td>58:34</td>  </tr>
+            <tr>  <td><a href="https://www.youtube.com/watch?v=qudsh6PfN3c&list=PLtvRfQfTh1K8M9Jrk7LPRhvKLgvJqdNfA&index=4"><strong>4: Heaven and Hell</strong></a></td> <td>Venus & the Heliocentric Theory</td> <td><img src="https://i.pinimg.com/originals/50/bb/0b/50bb0bcc33575b7f208d7e3ad5cadf6d.jpg" alt="Helios" style="width:150px;height:150px;"></td> <td>01:01:04</td>  </tr>
+            <tr>  <td><a href="https://www.youtube.com/watch?v=8zhKajw9jAI&list=PLtvRfQfTh1K8M9Jrk7LPRhvKLgvJqdNfA&index=5"><strong>5: Blues for a Red Planet</strong></a></td> <td>Mars, Telescopes & the Viking Missions </td> <td><img src="https://photojournal.jpl.nasa.gov/jpeg/PIA10368.jpg" alt="Viking" style="width:150px;height:150px;"></td> <td>01:01:14</td>  </tr>
+            <tr>  <td><a href="https://www.youtube.com/watch?v=my9aheqN5rM&list=PLtvRfQfTh1K8M9Jrk7LPRhvKLgvJqdNfA&index=6"><strong>6: Tales of Travellers</strong></a></td> <td>Newton, Hubble & the Voyagers</td> <td><img src="https://astronomy.com/~/media/91C30DC3C221461C813777A84738AA53.jpg" alt="Viking" style="width:150px;height:150px;"></td> <td>56:20</td>  </tr>
+            <tr>  <td><a href="https://www.youtube.com/watch?v=AiYGFZcD1h8&list=PLtvRfQfTh1K8M9Jrk7LPRhvKLgvJqdNfA&index=7"><strong>7: The Backbone of Night</strong></a></td> <td>Religion & Reason</td> <td><img src="https://i.pinimg.com/originals/c9/36/50/c93650471f2dc179594fbaf5eb5ec51a.jpg" alt="Inquisition" style="width:150px;height:150px;"></td> <td>58:40</td>  </tr>
+            <tr>  <td><a href="https://www.youtube.com/watch?v=uNggAKfbULs&list=PLtvRfQfTh1K8M9Jrk7LPRhvKLgvJqdNfA&index=8"><strong>8: Travels in Time and Space</strong></a></td> <td>Quasars & Light</td> <td><img src="https://i.dailymail.co.uk/1s/2019/08/06/14/16950668-7327087-image-m-45_1565096827306.jpg" alt="Quasars" style="width:150px;height:150px;"></td> <td>01:01:38</td>  </tr>
+            <tr>  <td><a href="https://www.youtube.com/watch?v=T4pubbpM9mw&list=PLtvRfQfTh1K8M9Jrk7LPRhvKLgvJqdNfA&index=9"><strong>9: The Lives of the Stars</strong></a></td> <td>Star Stuff & Atoms</td> <td><img src="https://render.fineartamerica.com/images/rendered/default/poster/10/8/break/images-medium-5/bohrs-radium-atom-aip-emilio-segre-visual-archives.jpg" alt="Atom" style="width:150px;height:150px;"></td> <td>59:27</td>  </tr>
+            <tr>  <td><a href="https://www.youtube.com/watch?v=YbgZWNW8ClU&list=PLtvRfQfTh1K8M9Jrk7LPRhvKLgvJqdNfA&index=10"><strong>10: The Edge of Forever</strong></a></td> <td>Light Years & Singularity</td> <td><img src="https://images.ctfassets.net/cnu0m8re1exe/29yVcbVrtgI1tXBV6gRH10/eba20449cc73dfddeb834f0500923c76/Cosmological-Gravity.jpg" alt="Singularity" style="width:150px;height:150px;"></td> <td>01:03:06</td>  </tr>
+            <tr>  <td><a href="https://www.youtube.com/watch?v=UwzukFBWxu4&list=PLtvRfQfTh1K8M9Jrk7LPRhvKLgvJqdNfA&index=11"><strong>11: The Persistence of Memory</strong></a></td> <td>DNA, Brain Structure & Darwin</td> <td><img src="https://images.theconversation.com/files/216191/original/file-20180424-57581-1jkoe8f.jpg" alt="DNA" style="width:150px;height:150px;"></td> <td>58:02</td>  </tr>
+            <tr>  <td><a href="https://www.youtube.com/watch?v=f77B2gRZhSo&list=PLtvRfQfTh1K8M9Jrk7LPRhvKLgvJqdNfA&index=12"><strong>12: Encyclopedia Galactica</strong></a></td> <td>Fermi Paradox, Drake & our Civilization</td> <td><img src="https://www.lazerhorse.org/wp-content/uploads/2016/10/Leonardo-da-Vinci-Inside-Skull.jpg" alt="Fermi" style="width:150px;height:150px;"></td> <td>01:00:50</td>  </tr>
+            <tr>  <td><a href="https://www.youtube.com/watch?v=luTxCri2bf4&list=PLtvRfQfTh1K8M9Jrk7LPRhvKLgvJqdNfA&index=13"><strong>13: Who Speaks For Earth</strong></a></td> <td>Humans, the Cosmos & our Barries</td> <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/The_Sounds_of_Earth_Record_Cover_-_GPN-2000-001978.jpg/200px-The_Sounds_of_Earth_Record_Cover_-_GPN-2000-001978.jpg" alt="Sagan" style="width:150px;height:150px;"></td> <td>01:01:59</td>  </tr>
+        </table>
+
+        <p><i>"There is no other species on Earth that does science.
+            It is, so far, entirely a human invention, evolved by
+            natural selection in the cerebral cortex for one simple reason:
+            it works. It is not perfect. It can be misused. It is only a tool.
+            But it is by far the best tool we have, self-correcting, ongoing,
+            applicable to everything. It has two rules. First: there are
+            no sacred truths; all assumptions must be critically examined;
+            arguments from authority are worthless. Second: whatever is
+            inconsistent with the facts must be discarded or revised."
+            - <b>Carl Sagan</b></i></p>
+
+  </body>
+
+</html>

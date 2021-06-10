@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  background-image: url(../img/webb.png);
+  --spacing: 20px;  /*variables (var) should be within the html tag, so they can be called at anytime*/
+  --main-color: #CD5C5C;
+}
+
+div{
+  width: calc(400px/2); /*here we used a -calc- function to 'calculate' 400/2 | it is useful when doing something like: calc(100%-10px)*/
+  height: 200px;
+  border: 2px solid black;
+  margin: var(--spacing); /*this is equivalent to 20px | make sure to use parenthesis, and two dashes before the name*/
+}
+
+div:nth-child(1)  {
+  background-image: url(https://1.bp.blogspot.com/-6TyE_n-7w28/TtdyiumCmLI/AAAAAAAAA5Q/0ZXOG44qsuk/s1600/Mandel_zoom_07_satellite.jpg);
+  background-size: cover; /*use this property to re-adjust the background-image*/
+}
+
+div:nth-child(2)  {
+  background-image: linear-gradient(green, yellow, red, blue);
+}
+
+div:nth-child(3)  {
+  background-image: linear-gradient(to right top, gray 25%, white 25% 50%, black 50% 75%, yellow 75%);
+}
+
+div:nth-child(4)  {
+  background-image: radial-gradient(red, purple, yellow);
+}
+
+div:nth-child(5)  {
+background-image: conic-gradient(brown, salmon, pink, red)
+}
+
+div:nth-child(6)  {
+  background-image: repeating-linear-gradient(to right, white, black, white);
+}
+
+div:nth-child(7)  {
+  background-image: repeating-linear-gradient(45deg,red,blue 7%,green 10%);
+}
+
+div:nth-child(8)  {
+  background: radial-gradient(circle at 100%, black, gray 30%, red 60%, gray 85%);
+}
+
+div:nth-child(9)  {
+  background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
+}
+
+div:nth-child(10)  {
+  background: linear-gradient(green, yellow);
+}
+
+div:nth-child(11)  {
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+div:nth-child(12)  {
+  background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%);
+}
+
+div:nth-child(13)  {
+  background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+              linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+              linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+
+div:nth-child(14)  {
+  background: radial-gradient(#e66465, #9198e5);
+}
+
+div:nth-child(15)  {
+  background: radial-gradient(closest-side, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+div:nth-child(16)  {
+  background: radial-gradient(circle at 100%, #333, #333 50%, #eee 75%, #333 75%);
+}
+
+div:nth-child(17)  {
+  background: radial-gradient(ellipse at top, #e66465, transparent),
+              radial-gradient(ellipse at bottom, #4d9f0c, transparent);
+}
+
+div:nth-child(18)  {
+  background: conic-gradient(red, orange, yellow, green, blue);
+}
+
+div:nth-child(19)  {
+  background: conic-gradient(from 0.25turn at 50% 30%, #f69d3c, 10deg, #3f87a6, 350deg, #ebf8e1);
+}
+
+div:nth-child(20)  {
+  background: conic-gradient(from 3.1416rad at 10% 50%, #e66465, #9198e5);
+}
+
+div:nth-child(21)  {
+  background: conic-gradient(
+     red 6deg, orange 6deg 18deg, yellow 18deg 45deg,
+     green 45deg 110deg, blue 110deg 200deg, purple 200deg);
+}
+
+div:nth-child(22)  {
+  background: repeating-linear-gradient(#e66465, #e66465 20px, #9198e5 20px, #9198e5 25px);
+}
+
+div:nth-child(23)  {
+  background: repeating-linear-gradient(45deg, #3f87a6, #ebf8e1 15%, #f69d3c 20%);
+}
+
+div:nth-child(24)  {
+  background: repeating-linear-gradient(transparent, #4d9f0c 40px),
+              repeating-linear-gradient(0.25turn, transparent, #3f87a6 20px);
+}
+
+div:nth-child(25)  {
+  background-image: repeating-linear-gradient(90deg,red,orange 7%,pink 10%);
+}
+
+p {
+  margin: calc(var(--spacing)/2); /*here we 'calculate' the 'varible' (20px)/2, which equals: 10*/
+  color: var(--main-color); /*in order to save time and avoid frustration, we call this varible to not write: #CD5C5C*/
+}
+
+body{
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px auto;
+  padding: 250px;
+}
+
+@media  (max-width: 900px)  {
+  html {--spacing: 10px;}
+}

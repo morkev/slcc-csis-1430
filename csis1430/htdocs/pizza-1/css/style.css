@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul.menu {
+  background-color: salmon;
+  text-align: center; /*Use this to center the menu*/
+}
+
+ul.menu li {
+  display: inline-block; /*Super important in order to have the borders in the correct position*/
+}
+
+ul.menu li a:hover, ul.menu li a.active   {
+  color: darkred; /*The -ul.menu li a:hover- is making the menu change color when the mouse is close or over the info.*/
+  background-color: seashell;
+}
+
+
+ul.menu li a  {
+  border-radius: 5px 5px 0 0; /*This propertie is making the borders a little rounded*/
+  text-decoration: none; /*Use this to delete the link's underline*/
+  font-family: tahoma;
+  display: inline-block; /*Super important in order to have the borders in the correct position*/
+  color: white;
+  padding: 20px;
+}

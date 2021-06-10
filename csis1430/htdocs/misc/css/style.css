@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+html  {
+  background-image: url(../img/denim.png); /*If the image is within the folder, use two dots (../img) to ask the code to go back one step, and find X file)*/
+  font-family: 'Press Start 2P', cursive;
+}
+
+nav ul li, nav ul li a  { /*Always add this property if you want to create a horizontal menu*/
+  display: inline-block;
+}
+
+nav ul  {
+  text-align: center; /*Use this to move the A,B,C,D blocks to the center*/
+  margin: 30px;
+}
+
+nav ul li a {
+  height: 100px;
+  padding: 20px;
+  margin: 5px;
+  font-size: 75px;
+  background-color: red;
+  text-decoration: none; /*Add this property to get rid of the underline (link)*/
+  color: white;
+}
+
+div.outer {
+  border: 2px solid;
+  display: flex;
+  justify-content: space-around;
+  height: 600px;
+  align-items: center; /*(1/2) See next note*/
+  flex-wrap: wrap; /*(2/2) Makes the site be able to look nice when resizing – useful for smartphones*/
+}
+
+div.inner {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  font-size: 55px;
+  font-family: 'Press Start 2P', cursive;
+  color: red;
+  text-align: center;
+  padding-top: 70px;
+}
