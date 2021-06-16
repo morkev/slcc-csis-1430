@@ -38,7 +38,6 @@
     }
 
     function playGame(clickedDiv, divValue) {
-
       if (!isWin()) {
         clickedDiv.innerText = markers[whoseTurn];
           totals[whoseTurn] += divValue;
