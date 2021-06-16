@@ -1,6 +1,5 @@
 # SLCC-CSIS-1430
-Internet-and-HTML-Fundamentals
-Coursework for 1430 Internet &amp; HTML Fundamentals at Salt Lake Community College.
+CSIS-1430: Internet & HTML Fundamentals Coursework at SLCC.
 
 ```
 function startGame() {
@@ -16,9 +15,10 @@ function startGame() {
             }
           innerDivs += '</div>';
       }
-        document.getElementById("board").innerHTML =innerDivs;
-        totals = [0, 0];
-        gameOver = false;
-        document.getElementById("title").innerText = players[whoseTurn] + " 's Turn";
+      
+      document.getElementById("board").innerHTML = innerDivs;
+      totals = [0, 0];
+      gameOver = false;
+      document.getElementById("title").innerText = players[whoseTurn] + " 's Turn";
 }
 ```
