@@ -1,6 +1,6 @@
 # SLCC-CSIS-1430
 CSIS-1430: Internet & HTML Fundamentals Coursework at SLCC.
-Please, feel free to use my code and do all the modifications you'd like to!
+Please, feel free to use my code and do all the modifications you'd like to.
 
 ```
 function startGame() {
